@@ -5,7 +5,7 @@
 # Executed by startx (run your window manager from here)
 
 
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 [ -f /etc/xprofile ] && source /etc/xprofile
 [ -f ~/.xprofile ] && source ~/.xprofile
